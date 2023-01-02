@@ -118,3 +118,10 @@ video {
     margin-left: 500px;
     bottom: 350px;
 }
+
+imgyu {
+        height: 70vh;
+            width: 100vw;
+            background-size: cover;
+            clip: rect(50px, 0, 0, 100px)
+}
