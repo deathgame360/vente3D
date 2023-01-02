@@ -118,11 +118,3 @@ video {
     margin-left: 500px;
     bottom: 350px;
 }
-
-img1{
-    height: 70vh;
-    width: 100vw;
-    background-image: url(/image/yugioh.jpg);
-    background-size: cover;
-    clip: rect(50px, 0, 0, 100px)
-}
