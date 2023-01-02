@@ -1,0 +1,120 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    text-decoration: none ;
+    list-style: none ;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+header {
+    height: 70vh ;
+    width: 100vw ;
+    background-image: url(/image/gamefont.jpg) ;
+    background-size: cover ;
+    clip:rect(50px,0,0,100px)
+}
+
+.navbar {
+    position: absolute ;
+    padding: 50px ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    width: 100% ;
+    box-sizing: border-box ;
+
+}
+
+.navbar a {
+    color: rgb(255, 0, 0) ;
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold ;
+}
+
+.navbar .navlinks ul {
+    display: flex ;
+}
+
+.navbar .navlinks ul li {
+    margin: 10px ;
+}
+
+.navbar .navlinks ul li.active a {
+    color: blue ;
+    font-weight: 600 ;
+}
+
+.navbar .Boutonmenu {
+    display: none ;
+    position: absolute ;
+    right: 0 ;
+    top: 0 ;
+    width: 60px ;
+}
+
+@media screen and (max-width: 900px) {
+
+    .navbar {
+        padding: 0 ;
+    }
+
+    .navbar .logo {
+        position: absolute ;
+        top: 50px ;
+        left: 50px ;
+    }
+
+    .navbar .Boutonmenu {
+        display: block ;
+    }
+
+    .navlinks {
+        top: 0 ;
+        left: 0 ;
+        position: absolute ;
+        background-color: rgba(255, 255, 255, 0.2) ;
+        backdrop-filter: blur(7px) ;
+        width: 100% ;
+        height: 100vh ;
+        display: flex ;
+        justify-content: center ;
+        align-items: center ;
+        margin-left: -100% ;
+        transition: all 0.5s ease;
+    }
+
+    .navlinks.mobile-menu {
+        margin-left: 0 ;
+
+    }
+
+    .navlinks ul {
+        display: flex ;
+        flex-direction: column ;
+        align-items: center ;
+    }
+
+    .navbar .navlinks ul li {
+        margin: 25px 0 ;
+        font-size: 1.7em ;
+    }
+}
+
+img {
+    position: relative;
+    justify-items: center;
+    top: 20px;
+}
+
+video {
+    position: relative;
+    justify-items: center;
+    margin-left: 500px;
+    bottom: 350px;
+}
