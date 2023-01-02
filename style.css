@@ -12,7 +12,7 @@ body {
 header {
     height: 70vh ;
     width: 100vw ;
-    background-image: url(/image/gamefont.jpg) ;
+    background-image: url(/image/yugioh.jpg) ;
     background-size: cover ;
     clip:rect(50px,0,0,100px)
 }
@@ -29,11 +29,11 @@ header {
 }
 
 .navbar a {
-    color: rgb(255, 0, 0) ;
+    color: rgb(229, 255, 0) ;
 }
 
 .navbar .logo {
-    font-size: 2em;
+    font-size: 5em;
     font-weight: bold ;
 }
 
@@ -42,11 +42,11 @@ header {
 }
 
 .navbar .navlinks ul li {
-    margin: 10px ;
+    margin: 40px ;
 }
 
 .navbar .navlinks ul li.active a {
-    color: blue ;
+    color: rgb(53, 255, 204) ;
     font-weight: 600 ;
 }
 
