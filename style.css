@@ -3,6 +3,8 @@
     padding: 0 ;
     text-decoration: none ;
     list-style: none ;
+    background: rgb(79, 72, 198);
+        background: linear-gradient(90deg, rgba(79, 72, 198, 1) 0%, rgba(9, 121, 96, 1) 44%, rgba(0, 212, 255, 1) 100%);
 }
 
 body {
