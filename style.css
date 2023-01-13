@@ -5,12 +5,8 @@
     list-style: none ;
    
 }
-html {
-background: rgb(79, 72, 198);
-    background: linear-gradient(90deg, rgba(79, 72, 198, 1) 0%, rgba(9, 121, 96, 1) 44%, rgba(0, 212, 255, 1) 100%);
 
 
-}
 body {
     font-family: 'Times New Roman', Times, serif ; 
     background: rgb(79, 72, 198);
@@ -125,4 +121,8 @@ video {
     justify-items: center;
     margin-left: 500px;
     bottom: 350px;
+}
+
+h1,p1,p2 {
+    color: white;
 }
