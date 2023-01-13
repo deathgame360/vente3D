@@ -18,7 +18,7 @@ header {
     width: 100vw ;
     background-image: url(/image/yugioh.jpg) ;
     background-size: cover ;
-    clip:rect(50px,0,0,100px)
+    clip:rect(50px,0,0,50px)
 }
 
 .navbar {
@@ -119,8 +119,8 @@ img {
 video {
     position: relative;
     justify-items: center;
-    margin-left: 500px;
-    bottom: 350px;
+    margin-left: 50px;
+    bottom: 280px;
 }
 
 h1,p1,p2 {
